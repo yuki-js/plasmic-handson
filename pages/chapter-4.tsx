@@ -3,26 +3,26 @@
 import * as React from "react";
 
 import { ScreenVariantProvider } from "../components/plasmic/hands_on/PlasmicGlobalVariant__Screen";
-import { PlasmicWelcome } from "../components/plasmic/hands_on/PlasmicWelcome";
+import { PlasmicChapter4 } from "../components/plasmic/hands_on/PlasmicChapter4";
 
-function Welcome() {
-  // Use PlasmicWelcome to render this component as it was
+function Chapter4() {
+  // Use PlasmicChapter4 to render this component as it was
   // designed in Plasmic, by activating the appropriate variants,
   // attaching the appropriate event handlers, etc.  You
   // can also install whatever React hooks you need here to manage state or
   // fetch data.
   //
-  // Props you can pass into PlasmicWelcome are:
+  // Props you can pass into PlasmicChapter4 are:
   // 1. Variants you want to activate,
   // 2. Contents for slots you want to fill,
   // 3. Overrides for any named node in the component to attach behavior and data,
   // 4. Props to set on the root node.
   //
-  // By default, PlasmicWelcome is wrapped by your project's global
+  // By default, PlasmicChapter4 is wrapped by your project's global
   // variant context providers. These wrappers may be moved to
   // Next.js Custom App component
   // (https://nextjs.org/docs/advanced-features/custom-app).
-  return <PlasmicWelcome />;
+  return <PlasmicChapter4 />;
 }
 
-export default Welcome;
+export default Chapter4;

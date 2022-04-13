@@ -1,0 +1,38 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+}
+.text___1Pl85 {
+  position: relative;
+  width: auto;
+  height: auto;
+  font-weight: 900;
+  left: auto;
+  top: auto;
+  font-size: 96px;
+  letter-spacing: -4px;
+  color: #000000;
+  transform: perspective(230px) rotateX(25deg) rotateY(0deg) rotateZ(-5deg);
+  padding-bottom: 0px;
+  transform-style: preserve-3d;
+}
+.text___1Pl85 * {
+  transform-style: preserve-3d;
+}
+.text__pnn0D {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 800px;
+  left: auto;
+  top: auto;
+  padding-top: 0px;
+}

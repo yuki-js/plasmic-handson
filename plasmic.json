@@ -1,0 +1,178 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "cY4nGuqRRerez3gozW4dq3",
+      "projectApiToken": "vIh5D9lPAj0Y0LRMUvDNKAVAJDLOfS3V8FWwvuQqz7SfE6QDb7d0OCJDCXRgyylOOAgA1hdHQaKvjnwGUXZQ",
+      "projectName": "hands-on",
+      "version": "latest",
+      "cssFilePath": "plasmic/hands_on/plasmic_hands_on.module.css",
+      "components": [
+        {
+          "id": "GLLGhkAxn6Nf",
+          "name": "Chapter1",
+          "type": "managed",
+          "projectId": "cY4nGuqRRerez3gozW4dq3",
+          "renderModuleFilePath": "plasmic/hands_on/PlasmicChapter1.tsx",
+          "importSpec": {
+            "modulePath": "../pages/chapter-1.tsx"
+          },
+          "cssFilePath": "plasmic/hands_on/PlasmicChapter1.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "DAiyvdgK_F",
+          "name": "Welcome",
+          "type": "managed",
+          "projectId": "cY4nGuqRRerez3gozW4dq3",
+          "renderModuleFilePath": "plasmic/hands_on/PlasmicWelcome.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/hands_on/PlasmicWelcome.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "oRY4UNKxpI",
+          "name": "Chapter2",
+          "type": "managed",
+          "projectId": "cY4nGuqRRerez3gozW4dq3",
+          "renderModuleFilePath": "plasmic/hands_on/PlasmicChapter2.tsx",
+          "importSpec": {
+            "modulePath": "../pages/chapter-2.tsx"
+          },
+          "cssFilePath": "plasmic/hands_on/PlasmicChapter2.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "utAk528Qfb",
+          "name": "Chapter3",
+          "type": "managed",
+          "projectId": "cY4nGuqRRerez3gozW4dq3",
+          "renderModuleFilePath": "plasmic/hands_on/PlasmicChapter3.tsx",
+          "importSpec": {
+            "modulePath": "../pages/chapter-3.tsx"
+          },
+          "cssFilePath": "plasmic/hands_on/PlasmicChapter3.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "cLj3qnxdQX",
+          "name": "Chapter4",
+          "type": "managed",
+          "projectId": "cY4nGuqRRerez3gozW4dq3",
+          "renderModuleFilePath": "plasmic/hands_on/PlasmicChapter4.tsx",
+          "importSpec": {
+            "modulePath": "../pages/chapter-4.tsx"
+          },
+          "cssFilePath": "plasmic/hands_on/PlasmicChapter4.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "k5X4nqk9U0",
+          "name": "Chapter5",
+          "type": "managed",
+          "projectId": "cY4nGuqRRerez3gozW4dq3",
+          "renderModuleFilePath": "plasmic/hands_on/PlasmicChapter5.tsx",
+          "importSpec": {
+            "modulePath": "../pages/chapter-5.tsx"
+          },
+          "cssFilePath": "plasmic/hands_on/PlasmicChapter5.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "J7dD1L2D6h",
+          "name": "Chapter6",
+          "type": "managed",
+          "projectId": "cY4nGuqRRerez3gozW4dq3",
+          "renderModuleFilePath": "plasmic/hands_on/PlasmicChapter6.tsx",
+          "importSpec": {
+            "modulePath": "../pages/chapter-6.tsx"
+          },
+          "cssFilePath": "plasmic/hands_on/PlasmicChapter6.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [
+        {
+          "id": "syccYXSk4DDa2",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/hands_on/icons/PlasmicIcon__Icon.tsx"
+        },
+        {
+          "id": "17UlyDy0U6kqh",
+          "name": "Icon2Icon",
+          "moduleFilePath": "plasmic/hands_on/icons/PlasmicIcon__Icon2.tsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "70aFcabWu1d-4",
+          "name": "image.png",
+          "filePath": "../public/plasmic/hands_on/images/imagepng.jpeg"
+        },
+        {
+          "id": "bemtTsLok",
+          "name": "4hoa4t.jpg",
+          "filePath": "../public/plasmic/hands_on/images/_4Hoa4Tjpg.jpeg"
+        },
+        {
+          "id": "aKKgmj4Lu",
+          "name": "ab9ef9fc3f6d4fbd7878cf8f172a97b3.jpg",
+          "filePath": "../public/plasmic/hands_on/images/ab9Ef9Fc3F6D4Fbd7878Cf8F172A97B3Jpg.jpeg"
+        },
+        {
+          "id": "suG6VXZ1J",
+          "name": "upload",
+          "filePath": "../public/plasmic/hands_on/images/upload.png"
+        }
+      ],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "Dchhpn20QD10l",
+        "name": "Screen",
+        "projectId": "cY4nGuqRRerez3gozW4dq3",
+        "contextFilePath": "plasmic/hands_on/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.176",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.176/dist/plasmic.schema.json"
+}
